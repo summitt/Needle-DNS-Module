@@ -6,7 +6,9 @@ You can use this with the [NoPE proxy](https://github.com/summitt/Burp-Non-HTTP-
 
 To use just copy dns.py into [...]/needle/modules/comms/dns/
 
-The start needle that the module should show up in the list.
+Then you can start needle and the module should show up in the list of available modules.
+
+
 ```
 [needle] > show modules
 ...snip...
@@ -23,6 +25,7 @@ The start needle that the module should show up in the list.
 
 ```
 
+You run it as follows:
 
 ```
 [needle] > use comms/dns/dns
