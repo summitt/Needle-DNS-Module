@@ -4,10 +4,29 @@ This module can be added to [Needle](https://github.com/mwrlabs/needle) to autom
 
 You can use this with the [NoPE proxy](https://github.com/summitt/Burp-Non-HTTP-Extension) to automatically send all traffic to BurpSuite.
 
+To use just copy dns.py into [...]/needle/modules/comms/dns/
+
+The start needle that the module should show up in the list.
+```
+[needle] > show modules
+...snip...
+ Comms
+  -----
+    comms/certs/delete_ca
+    comms/certs/export_ca
+    comms/certs/import_ca
+    comms/certs/install_ca_mitm
+    comms/certs/list_ca
+    comms/dns/dns
+    comms/proxy/proxy_regular
+...snip...
 
 ```
-[needle] use comms/dns/dns
-[needle][dns] set dns 192.168.1.128
+
+
+```
+[needle] > use comms/dns/dns
+[needle][dns] > set dns 192.168.1.128
 [needle][dns] > run
 [*] Checking connection with device...
 [+] Already connected to: 127.0.0.1
