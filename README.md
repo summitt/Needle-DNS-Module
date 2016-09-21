@@ -2,7 +2,7 @@
 
 This module can be added to [Needle](https://github.com/mwrlabs/needle) to automatically set the DNS of the iOS device. 
 
-You can use this with the [NoPE proxy](https://github.com/summitt/Burp-Non-HTTP-Extension)to automatically send all traffic to BurpSuite.
+You can use this with the [NoPE proxy](https://github.com/summitt/Burp-Non-HTTP-Extension) to automatically send all traffic to BurpSuite.
 
 
 ```
